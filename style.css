@@ -1,0 +1,85 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  background-color: #f8f9fa; /* Light gray background for a soft look */
+  font-family: 'Arial', sans-serif; /* Clean, modern font */
+}
+
+/* Container Styling */
+.container {
+  background-color: #ffffff; /* White background for the main container */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 30px; /* Generous padding */
+}
+
+/* Heading Styling */
+h1 {
+  color: #343a40; /* Dark gray for the heading */
+  font-size: 36px; /* Large size for emphasis */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Subheading Styling */
+.find {
+  color: #6c757d; /* Medium gray for the subheading */
+  font-size: 18px; /* Medium size */
+  margin-bottom: 30px; /* Space below the subheading */
+}
+
+/* Input Field Styling */
+input[type="text"] {
+  border: 2px solid #ced4da; /* Light gray border */
+  border-radius: 8px; /* Slightly rounded corners */
+  padding: 12px; /* Padding for the input */
+  transition: border-color 0.3s ease; /* Smooth transition on focus */
+}
+
+input[type="text"]:focus {
+  border-color: #007bff; /* Blue border on focus */
+  outline: none; /* Remove default outline */
+}
+
+/* Button Styling */
+button#btn {
+  background-color: #3700ff; /* Bootstrap primary color */
+  border: none; /* No border */
+  border-radius: 8px; /* Rounded corners */
+  color: #ffffff; /* White text */
+  padding: 12px; /* Padding for the button */
+  font-size: 16px; /* Medium text size */
+  transition: background-color 0.3s ease, transform 0.2s; /* Smooth transition */
+}
+
+button#btn:hover {
+  background-color: #002aff; /* Darker blue on hover */
+  transform: translateY(-2px); /* Lift effect on hover */
+}
+
+/* Feedback Message Styling */
+.text-center span {
+  display: block; /* Block display for better spacing */
+  font-size: 14px; /* Smaller font size */
+  margin-top: 10px; /* Space above the feedback messages */
+}
+
+/* Results Container Styling */
+#appendData {
+  margin-top: 30px; /* Space above results */
+}
+#sum{
+ 
+  background-color: #2b00ff; /* Bootstrap primary color */
+  border: none; /* No border */
+  border-radius: 8px; /* Rounded corners */
+  color: #ffffff; /* White text */
+  padding: 12px; /* Padding for the button */
+  font-size: 16px; /* Medium text size */
+  transition: background-color 0.3s ease, transform 0.2s; /* Smooth transition */
+}
